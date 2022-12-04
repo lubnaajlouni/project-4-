@@ -193,7 +193,7 @@ namespace Survey_Project4
         protected void login_Click(object sender, EventArgs e)
         {
             string[] userN = { "Lujain", "Lubna", "Malek", "Raghad", "Sohaib", "Mohammad", "Ahmad", "Sara", "Alaa", "Eman" };
-            string[] userID = { "1324", "1224", "1424", "2724", "3324", "1624", "1524", "1124", "2324", "2724" };
+            string[] userID = { "1324", "1224", "1424", "2724", "3324", "1624", "1524", "1124", "2324", "1724" };
             string[] user_info = File.ReadAllLines(@"C:\Users\Orange\source\repos\Survey_Project4\Survey_Project4\Login.txt");
             for (int u = 0; u < userN.Length; u++)
             {
