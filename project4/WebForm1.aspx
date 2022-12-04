@@ -25,13 +25,41 @@
     display: flex;
     flex-direction: column;
    }
-.E{width:10%;height:25%;margin-left:88%;margin-top:1%;background-color:#7167AE;border-color:white;}
+    
+   
 
 .two{width:100%;background-color:#E6E6E6; }
 
 .t{padding:3% 3%; width:100%;}
 
-.b{width:10%; font-size:large;margin-top:2%; margin-left:40%; color:#FADB7F; background-color:#7167AE; border-color:#7167AE;}
+.b{width:10%;height:40px; font-size:large;margin-top:2%; margin-left:40%; color:#FADB7F; background-color:#7167AE; border-color:#7167AE;}
+
+.navbar {
+    background-color: #7167AE;
+    height:120px;
+    width: 100%;
+   
+}
+.h{
+   
+    float:left;
+    margin-top:40px;
+    margin-left:35px;
+    color:#FADB7F
+}
+.about {
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-weight: bold;
+    color: #FADB7F;
+    text-align: center;
+    font-size: x-large;
+    background-color: #7167AE;
+    border: 1px solid #7167AE;
+    float:right;
+    margin-top:40px;
+    margin-right:30px;
+}
 
     @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
 
@@ -65,42 +93,49 @@
     <form id="form1" runat="server">
         <div class="larg">
         <div class="main">
-            <div class="one"> 
+            <div class="navbar">
+            <h1 class="h"> Survey question by admin </h1>
+            <asp:Button ID="about" runat="server" Text="Result" CssClass="about" />
+            <asp:Button ID="home" runat="server" Text="Exit" CssClass="about"  />
+
+        </div>
+            <%--<div class="one"> 
+                  
                 <button class="E">Exit</button>
-                <h1  class="h" style=" margin-left:3%; color:#FADB7F; margin-top:-0.2%;"> survey question by admin </h1>
-            </div>
+                <h1  class="h" style=" margin-left:3%; color:#FADB7F; margin-top:-3%;"> survey question by admin </h1>
+            </div>--%>
             <div class="two">
                 <div class="t">
-                <asp:Label ID="Label1" runat="server" Text="Question 1" Style="font-size:x-large"></asp:Label><br />
+                <asp:Label ID="Label1" runat="server" Text="Question 1" Style="font-size:x-large"></asp:Label><br /><br />
                 <asp:TextBox ID="TextBox1" runat="server" style="width:90%;font-size:x-large;"></asp:TextBox> <br /><br /><br />
 
-                    <asp:Label ID="Label2" runat="server" Text="Question 2" Style="font-size:x-large"></asp:Label><br />
+                    <asp:Label ID="Label2" runat="server" Text="Question 2" Style="font-size:x-large"></asp:Label><br /><br />
                 <asp:TextBox ID="TextBox2" runat="server" style="width:90%;font-size:x-large;"></asp:TextBox> <br /><br /><br />
 
-                    <asp:Label ID="Label3" runat="server" Text="Question 3" Style="font-size:x-large"></asp:Label><br />
+                    <asp:Label ID="Label3" runat="server" Text="Question 3" Style="font-size:x-large"></asp:Label><br /><br />
                 <asp:TextBox ID="TextBox3" runat="server" style="width:90%;font-size:x-large;"></asp:TextBox> <br /><br /><br />
 
-                    <asp:Label ID="Label4" runat="server" Text="Question 4" Style="font-size:x-large"></asp:Label><br />
+                    <asp:Label ID="Label4" runat="server" Text="Question 4" Style="font-size:x-large"></asp:Label><br /><br />
                 <asp:TextBox ID="TextBox4" runat="server" style="width:90%;font-size:x-large;"></asp:TextBox> <br /><br /><br />
 
-                    <asp:Label ID="Label5" runat="server" Text="Question 5" Style="font-size:x-large"></asp:Label><br />
+                    <asp:Label ID="Label5" runat="server" Text="Question 5" Style="font-size:x-large"></asp:Label><br /><br />
                 <asp:TextBox ID="TextBox5" runat="server" style="width:90%;font-size:x-large;"></asp:TextBox> <br /><br /><br />
 
-                    <asp:Label ID="Label6" runat="server" Text="Question 6" Style="font-size:x-large"></asp:Label><br />
+                    <asp:Label ID="Label6" runat="server" Text="Question 6" Style="font-size:x-large"></asp:Label><br /><br />
                 <asp:TextBox ID="TextBox6" runat="server" style="width:90%;font-size:x-large;"></asp:TextBox> <br /><br /><br />
 
-                    <asp:Label ID="Label7" runat="server" Text="Question 7" Style="font-size:x-large"></asp:Label><br />
+                    <asp:Label ID="Label7" runat="server" Text="Question 7" Style="font-size:x-large"></asp:Label><br /><br />
                 <asp:TextBox ID="TextBox7" runat="server" style="width:90%;font-size:x-large;"></asp:TextBox> <br /><br /><br />
 
-                    <asp:Label ID="Label8" runat="server" Text="Question 8" Style="font-size:x-large"></asp:Label><br />
+                    <asp:Label ID="Label8" runat="server" Text="Question 8" Style="font-size:x-large"></asp:Label><br /><br />
                 <asp:TextBox ID="TextBox8" runat="server" style="width:90%;font-size:x-large;"></asp:TextBox> <br /><br /><br />
 
-                    <asp:Label ID="Label9" runat="server" Text="Question 9" Style="font-size:x-large"></asp:Label><br />
+                    <asp:Label ID="Label9" runat="server" Text="Question 9" Style="font-size:x-large"></asp:Label><br /><br />
                 <asp:TextBox ID="TextBox9" runat="server" style="width:90%;font-size:x-large;"></asp:TextBox> <br /><br /><br />
 
-                    <asp:Label ID="Label10" runat="server" Text="Question 10" Style="font-size:x-large"></asp:Label><br />
+                    <asp:Label ID="Label10" runat="server" Text="Question 10" Style="font-size:x-large"></asp:Label><br /><br>
                 <asp:TextBox ID="TextBox10" runat="server" style="width:90%;font-size:x-large;"></asp:TextBox> <br /><br /><br />
-                    <asp:Button ID="Button1" Class="b" runat="server" Text="Button" OnClick="Button1_Click" />
+                    <asp:Button ID="Button1" Class="b" runat="server" Text="Done" OnClick="Button1_Click" />
                    
                     </div>
                 
