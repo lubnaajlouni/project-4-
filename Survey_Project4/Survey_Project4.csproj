@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Add_Ques.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\logo.png" />
     <Content Include="Login.aspx" />
@@ -74,9 +75,18 @@
     <Content Include="Login_CSS.css" />
     <Content Include="Images\Rename.png" />
     <Content Include="Login_JS.js" />
+    <Content Include="Lubna.txt" />
+    <Content Include="User_Q.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Ques.aspx.cs">
+      <DependentUpon>Add_Ques.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_Ques.aspx.designer.cs">
+      <DependentUpon>Add_Ques.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -88,6 +98,13 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User_Q.aspx.cs">
+      <DependentUpon>User_Q.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Q.aspx.designer.cs">
+      <DependentUpon>User_Q.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -101,6 +118,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="UserFiles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

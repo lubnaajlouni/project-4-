@@ -194,7 +194,7 @@ namespace Survey_Project4
         {
             string[] userN = { "Lujain", "Lubna", "Malek", "Raghad", "Sohaib", "Mohammad", "Ahmad", "Sara", "Alaa", "Eman" };
             string[] userID = { "1324", "1224", "1424", "2724", "3324", "1624", "1524", "1124", "2324", "1724" };
-            string[] user_info = File.ReadAllLines(@"C:\Users\Orange\source\repos\Survey_Project4\Survey_Project4\Login.txt");
+           
             for (int u = 0; u < userN.Length; u++)
             {
                 //if user is an Admin
@@ -232,29 +232,34 @@ namespace Survey_Project4
             }
             if(exist_in_arr == true)
             {
+                string[] user_info = File.ReadAllLines(@"C:\Users\Orange\source\repos\Survey_Project4\Survey_Project4\Login.txt");
                 for (int i = 0; i < user_info.Length; i++)
                 {
                     string[] user = user_info[i].Split(' ');
                     if (user[0] == User_input.Text && user[1] == Id_input.Text)
                     {
-                        
-                        
-                            mess.Text = "You Are Already Fill The Survey";
-                            //Response.Redirect("Login.aspx");
-                            exist_in_file = true;
-                            break;
-                        
+                        mess.Text = "You Are Already Fill The Survey";
+                        exist_in_file = true;
+                        break;
+
 
                         /*-----------------------*/
                     }
-                    else
-                    {
-                        mess.Text = "Thanks For Your Time ";
-                        //Response.Redirect("?&username="+User_input.Text+"&empID="+Id_input.Text);
-                               
-                    }
+                    else exist_in_file = false;
+                    //else
+                    //{
+                       
+                       
+                    //}
 
 
+                }
+                if (exist_in_file == false)
+                {
+                    string username = User_input.Text;
+                    string empID = Id_input.Text;
+                    mess.Text = "Thanks For Your Time ";
+                    Response.Redirect("User_Q.aspx?username=" + User_input.Text + "&empID=" + Id_input.Text);
                 }
             }
         }

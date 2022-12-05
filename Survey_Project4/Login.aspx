@@ -41,7 +41,7 @@
                 <br />
                 <asp:Label ID="id_label" runat="server" Text="Employee_ID" CssClass="user_Id_label"> </asp:Label>
                 <br /> <br />
-                <asp:TextBox ID="Id_input" runat="server" CssClass="user_Id_box"></asp:TextBox>
+                <asp:TextBox ID="Id_input" runat="server" CssClass="user_Id_box" type="password"></asp:TextBox>
                 
                 <asp:Button ID="login" runat="server" Text="Login" CssClass="login_button" OnClick="login_Click" OnClientClick="LOGIN()"/>
                 </div>
