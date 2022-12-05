@@ -1,0 +1,16 @@
+C:\Users\Orange\source\repos\c-sharp-intro\c-sharp-intro\bin\Debug\c-sharp-intro.exe.config
+C:\Users\Orange\source\repos\c-sharp-intro\c-sharp-intro\bin\Debug\c-sharp-intro.exe
+C:\Users\Orange\source\repos\c-sharp-intro\c-sharp-intro\bin\Debug\c-sharp-intro.pdb
+C:\Users\Orange\source\repos\c-sharp-intro\c-sharp-intro\obj\Debug\c-sharp-intro.csproj.AssemblyReference.cache
+C:\Users\Orange\source\repos\c-sharp-intro\c-sharp-intro\obj\Debug\c-sharp-intro.csproj.SuggestedBindingRedirects.cache
+C:\Users\Orange\source\repos\c-sharp-intro\c-sharp-intro\obj\Debug\c-sharp-intro.csproj.CoreCompileInputs.cache
+C:\Users\Orange\source\repos\c-sharp-intro\c-sharp-intro\obj\Debug\c-sharp-intro.exe
+C:\Users\Orange\source\repos\c-sharp-intro\c-sharp-intro\obj\Debug\c-sharp-intro.pdb
+D:\c-sharp-intro\c-sharp-intro\bin\Debug\c-sharp-intro.exe.config
+D:\c-sharp-intro\c-sharp-intro\bin\Debug\c-sharp-intro.exe
+D:\c-sharp-intro\c-sharp-intro\bin\Debug\c-sharp-intro.pdb
+D:\c-sharp-intro\c-sharp-intro\obj\Debug\c-sharp-intro.csproj.AssemblyReference.cache
+D:\c-sharp-intro\c-sharp-intro\obj\Debug\c-sharp-intro.csproj.SuggestedBindingRedirects.cache
+D:\c-sharp-intro\c-sharp-intro\obj\Debug\c-sharp-intro.csproj.CoreCompileInputs.cache
+D:\c-sharp-intro\c-sharp-intro\obj\Debug\c-sharp-intro.exe
+D:\c-sharp-intro\c-sharp-intro\obj\Debug\c-sharp-intro.pdb
